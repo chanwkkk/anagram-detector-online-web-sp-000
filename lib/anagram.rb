@@ -7,6 +7,12 @@ attr_accessor :text
     @text=text
   end
 
+  def match
+
+
+  end
+
+
 
 
 
