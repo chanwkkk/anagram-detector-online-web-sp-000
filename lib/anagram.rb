@@ -2,9 +2,8 @@
 #创造一个class有特性：text
 #比较text和给出的array
 class Anagram
-attr_accessor :text
-  def initialize
-
+attr_accessor :text_array
+  def initialize(text)
 
   end
 
