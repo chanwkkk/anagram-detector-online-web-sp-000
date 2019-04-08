@@ -10,7 +10,7 @@ attr_accessor :text
 
   def match(possible_lists)
     text_array=self.text.split('')
-    possible_lists.select {|item| item.split('').sort=text_array.sort}
+    possible_lists.select {|item| item.split('').sort==text_array.sort}
   end
 
 
